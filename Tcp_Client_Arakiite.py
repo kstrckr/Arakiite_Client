@@ -1,7 +1,7 @@
 import socket
 import sys
 
-HOST_IP, PORT = "localhost", 9999
+HOST_IP, PORT = "192.168.1.8", 9999
 data = " ".join(sys.argv[1:])
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
